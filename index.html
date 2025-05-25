@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <title>寶可夢圖鑑展示</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="viewer-container">
+    <div id="title">寶可夢圖鑑</div>
+  </div>
+
+  <div id="pokemon-info">載入中...</div>
+  <div id="dex-info">載入圖鑑描述中...</div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./main.js">
+  
+  </script>
+</body>
+</html>
